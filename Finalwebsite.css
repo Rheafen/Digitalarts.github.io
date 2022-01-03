@@ -49,5 +49,40 @@ body {
 
 h1 {
     font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
     color: #110C2C;
+    padding-left: 5%;
+}
+
+hr {
+    border: 0;
+    height: 1;
+    
+    color: #110C2C;
+
+}
+
+.rectangle2 {
+    height: 400px;
+    width: 400px;
+    background-color: #252f8a;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.rectangle3 {
+    height: 400px;
+    width: 400px;
+    background-color: #252f8a;
+    
+    margin-top: 2%;
+}
+
+.rectangle4 {
+    height: 400px;
+    width: 400px;
+    background-color: #252f8a;
+    margin-right: 5%;
+    margin-top: 2%;
 }
