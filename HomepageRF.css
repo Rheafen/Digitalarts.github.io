@@ -54,3 +54,34 @@ h1 {
     color: #110C2C;
     padding-left: 5%;
 }
+
+.container{
+    text-align: center;
+}
+
+.students img{
+        width: 300px;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+
+.rectangle2 {
+    height: 30px;
+    width: auto;
+    background-color: #FFCA00;
+    margin-top: 3%;
+}
+
+.rectangle3 {
+    height: 600px;
+    width: auto;
+    background-color:#110C2C;
+    
+}
+
+.email {
+    padding-top: 5%;
+    text-align: center;
+   color: #FFCA00;
+}
