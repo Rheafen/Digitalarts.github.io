@@ -48,7 +48,6 @@ body {
 }
 
 h1 {
-    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: #110C2C;
@@ -80,8 +79,23 @@ h1 {
     
 }
 
-.email {
+form {
+    text-align: left;
+    color: #FFCA00;
+    width: 50%;
+    margin-left: 5%;
     padding-top: 5%;
-    text-align: center;
-   color: #FFCA00;
+}
+
+button {
+    color: #110C2C;
+background-color: #FFCA00;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color:#FFCA00;
+    padding-left: 5%;
+    padding-top: 5%;
 }
