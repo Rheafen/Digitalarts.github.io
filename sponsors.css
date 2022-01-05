@@ -1,0 +1,23 @@
+body {
+   
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.navbar-customclass {
+    background-color: #110C2C;
+}
+
+.navbar-customclass .navbar-brand,
+.navbar-customclass .navbar-text {
+    color: #FFCA00;
+
+}
+
+.navbar-customclass .navbar-nav .nav-link {
+    color: #FFCA00;
+}
+
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+    color: #ffffff;
+}
