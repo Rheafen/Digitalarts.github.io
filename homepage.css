@@ -67,15 +67,12 @@ h1 {
 }
 
 .container {
-    background-color: #252F8A ;
     width: auto;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-hr {
-    border: solid #110C2C 3px;
-}
+
  
 .social {
     background-color:#110C2C;
