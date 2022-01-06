@@ -3,6 +3,10 @@ body {
     font-family: 'Spline Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;;
+}
+
 .navbar-customclass {
     background-color: #110C2C;
 }
@@ -99,3 +103,35 @@ h2 {
     padding-left: 5%;
     padding-top: 5%;
 }
+
+.social {
+    background-color:#110C2C;
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .oval1 {
+      height: 50vh;
+    }
+
+    .oval2 {
+    height: 60vh;
+    }
+    
+    .rectangle {
+    height: 25vh;
+    }
+
+    .title {
+        width: 700px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+      .title {
+          width: 500px;
+      }
+  }
