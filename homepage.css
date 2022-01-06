@@ -1,110 +1,120 @@
-body {
-   
-    font-family: 'Spline Sans', sans-serif;
+
+h1{
+    font-size: 70px;
+    letter-spacing: 1.3pt;
+    color: white;
+    line-height: 13pt;
+    padding-top: 30pt;
+    padding-left: 18pt;
 }
 
-a{
-    text-decoration: none;;
+h2{
+    font-size: 70px;
+    letter-spacing: 1.3pt;
+    color: white;
+    line-height: 13pt;
+    padding-left: 18pt;
 }
 
-.navbar-customclass {
-    background-color: #110C2C;
+h3{
+    font-size: 70px;
+    letter-spacing: 1.3pt;
+    color: white;
+    line-height: 13pt;
+    padding-left: 18pt;
+    padding-bottom: 25pt;
 }
 
-.navbar-customclass .navbar-brand,
-.navbar-customclass .navbar-text {
-    color: #FFCA00;
-
+div.title{
+    background-color: rgb(53, 53, 53);
+    div
 }
 
-.navbar-customclass .navbar-nav .nav-link {
-    color: #FFCA00;
-}
-
-.navbar-customclass .nav-item.active .nav-link,
-.navbar-customclass .nav-item:hover .nav-link {
-    color: #ffffff;
-}
-
- .rectangle {
-    height: 350px;
-     width: auto;
-     background-color: #110C2C;
- }
-
- .oval1 {
-    height: 650px;
-    width: auto;
-    background-color: #110C2C;
-    border-radius: 100%;
-}
-
-.oval2 {
-    height: 700px;
-    width: auto;
-    background-color: #FFCA00;
-    border-radius: 100%;
-}
-
-.title {
-    text-align: left;
-    padding-left: 20%;
-    padding-top: 1%;
-}
-
-.boxes {
-    padding-left: 70%;
-}
-
-.boxes2 {
-    padding-left: 60%;
-}
-
-h1 {
-   text-align: center;
-   margin-top: 2%;
-}
-
-.carousel{
-    width: 60%;
-    margin: auto;
-}
-
-.container {
-    width: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-
- 
-.social {
-    background-color:#110C2C;
-    text-align: center;
-    padding-top: 0.2%;
-    padding-bottom: 0.2%;
-}
-
-@media only screen and (max-width: 1000px) {
-    .oval1 {
-      height: 50vh;
-    }
-
-    .oval2 {
-    height: 60vh;
-    }
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(80, 137, 145);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    background: white;
+    width: 10pt;
+    margin-left: auto;
+    margin-right: auto;
     
-    .rectangle {
-    height: 25vh;
-    }
-
-    .title {
-        width: 700px;
-    }
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
 
-  @media only screen and (max-width: 600px) {
-      .title {
-          width: 500px;
-      }
+  h4{
+    font-size: 55px;
+    letter-spacing: 1pt;
+    color: white;
+    line-height: 2pt;
+    padding-top: 30pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
   }
+
+  h5{
+      font-size: 20px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-right: 10pt;
+  }
+  div.projects{
+      text-align: right;
+      background: rgb(205, 140, 178);
+  }
+  
+h6{
+    font-size: 55px;
+    letter-spacing: 1pt;
+    color: rgb(80, 137, 145);
+    line-height: 32pt;
+    padding-left: 10pt;
+}
+
+div.sponsors{
+    background:rgb(53, 53, 53)
+}
+
+h7{
+    font-size: 55px;
+    letter-spacing: 1pt;
+    color: rgb(205, 140, 178);
+    line-height: 50pt;
+    padding-left: 10pt;
+    padding-top: 30pt;
+}
+
+div.contact{
+    background: rgb(53, 53, 53);
+}
+
+form{
+    width: 100pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20pt;
+}
